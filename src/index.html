@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet">
+    <!--npx tailwindcss -i ./src/input.css -o ./src/output.css --watch-->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>CRICX</title>
+  </head>
+  <body class="h-full bg-gradient-to-tr from-purple-900 via-teal-600 to-indigo-600 min-h-screen bg-cover bg-no-repeat">
+    <nav class="flex space-x-7 h-20 lg:full  justify-between bg-gray-400 bg-transparent px-8 items-center">
+      <div class="flex items-center gap-2">
+        <a class="text-2xl font-extrabold" href="#">CRICX</a>
+        <div class="px-1 py-1  rounded-lg toggle-button">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+           </svg>
+          </div>
+      </div>
+      <div class="flex  hidden lg:inline-block dropdown-menu">
+        <ul class="flex   ">
+          <li class="px-3 py-2  rounded-lg hover:bg-gray-500 transform duration-1000 delay-100">Homee</li>
+          <li class="px-3 py-2 rounded-lg hover:bg-gray-500 transform duration-1000 delay-100 whitespace-nowrap">About Us</li>
+          <li class="px-3 py-2 rounded-lg hover:bg-gray-500 transform duration-1000 delay-100">Services</li>
+          <li class="px-3 py-2 rounded-lg hover:bg-gray-500 transform duration-1000 delay-100">Support</li>
+         
+        </ul>
+
+      </div>
+      <div class="flex justify-end ">
+         <a class="px-3 py-2 rounded-lg hover:bg-gray-500 transform duration-1000 delay-100 hidden lg:inline-block" href="">Login</a>
+          <a class="px-3 py-2 rounded-3xl bg-blue-500 text-white transform whitespace-nowrap " href="">Sign Up</a>
+      </div>
+
+    </nav>
+    <div>
+    </div>
+    <div class="w-full h-[723px] bg-stadium bg-no-repeat bg-cover bg-fixed flex  items-center justify-center lg: px-8 flex-col gap-5">
+      <h1 class=" font-extrabold text-6xl bg-gradient-to-r from-black via-purple-500 to-teal-700 bg-clip-text ">WE ARE HERE!!!</h1>
+      <button class=" flex  px-3 py-1  items-center gap-1  rounded-3xl bg-blue-500 text-white whitespace-nowrap text-lg border-black border ">
+        Scroll <span class="scale-90 text flex animate-spin "><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3" />
+        </svg>
+        
+</span>
+      </button>
+    </div>
+    <div class="max-h-fit px-8 w-full bg-slate-  ">
+      <div class="bg-match h-[400px] bg-cover bg-center p-24 rounded-md bg-opacity-5">
+        <h1 class="font-bold text-5xl bg-gradient-to-tr from-purple-500 via-teal-600 to-indigo-600 text-transparent bg-clip-text "> EVERY DAY LIVE MATCHES</h1>
+        <h2 class="mt-5 text-white text-2xl">Refresh content every day</h2>
+      </div>
+      <div>
+        <h1 class="text-4xl font-bold pt-5 ">FREE LIVE MATCHES</h1>
+      </div>
+    
+     <div class="h-[500px] w-[full] flex items-center justify-center">
+      <div class="h-[400px] w-[800px] bg-cover flex bg-center rounded-lg mt-6 ">
+       <img class="bg-cover bg-no-repeat flex rounded-lg shadow-lg shadow-gray-600 " src="https://v3img.voot.com/resizeMedium,w_914,h_514/v3Storage/assets/m_020_mi_vs_rcb_tata_ipl_clean-1743956696675.jpg" alt="">
+      </div>
+     </div>
+     <div class="h-[150px] w-[full] flex items-center justify-center">
+      <div class="flex">
+        <h1 class="font-serif text-4xl top-0">MATCH INFO:</h1>
+
+      </div>
+     </div>
+    </div>
+    <h1 class="font-extrabold text-5xl text-center  text-white">MI VS RCB</h1>
+    <div class="flex justify-center  items-center flex-col gap-5 px-8 h-fit py-10 w-full lg:flex-row">
+     
+      <div class="h-[300px] w-[400px] rounded-lg shadow-lg gap-4 p-2 shadow-gray-700 hover:shadow-gray-900 flex justify-center flex-col items-center bg-amber-300">
+        <h1 class="text-2xl font-bold text-center">#LIVE-1</h1>
+        <img src="https://imgs.search.brave.com/XjH8re_XfSPEDK_qvAVixQ4Ig6KbosxGaGQmCHFnOQ0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/d2lsbG93LnR2L2Fw/cHMvd2x3LW53LWxn/by5wbmc" alt="">
+        <div >
+          <button class=" px-4 font-bold bg-blue-500 hover:bg-none  py-2 rounded-full animate-bounce   "><a href="https://shz.al/~Khel-Box-Willow.html">WATCH LIVE</a> </button>
+        </div>
+      </div>
+      <div class="h-[300px] w-[400px] rounded-lg shadow-lg gap-2 p-2 shadow-gray-700 hover:shadow-gray-900 flex justify-center flex-col items-center bg-amber-300">
+        <h1 class="text-2xl font-bold text-center">#LIVE-2</h1>
+        <img class="scale-75" src="https://imgs.search.brave.com/lVeklzvkgBxX5nEze4qNwvoncQBepzxZr9zf2_lcamc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy8z/LzM1L1N0YXJfU3Bv/cnRzXzIucG5n" alt="">
+        <div >
+          <button class=" px-4 font-bold bg-blue-500 hover:bg-none  py-2 rounded-full animate-bounce   "><a href="https://shz.al/~Khel-Box-hindi.html">WATCH LIVE</a> </button>
+        </div>
+      </div>
+      
+    </div>
+    <footer class="bg-teal-100 bg-opacity-30">
+      <div class="flex justify-center gap-1">
+       <h1 class="font-semibold "> MADE WITH LOVE</h1>
+       <span class="text-red-500 scale-90"><svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+        <path d="m11.645 20.91-.007-.003-.022-.012a15.247 15.247 0 0 1-.383-.218 25.18 25.18 0 0 1-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0 1 12 5.052 5.5 5.5 0 0 1 16.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 0 1-4.244 3.17 15.247 15.247 0 0 1-.383.219l-.022.012-.007.004-.003.001a.752.752 0 0 1-.704 0l-.003-.001Z" />
+      </svg></span>
+      
+      </div>
+      <h1 class="font-serif text-center">BY: <span class="font-bold">NANDHU THANDA</span></h1>
+      <div class="flex justify-center items-center p-2">
+        <h1 class="text-center">Powered by:<span class="font-extrabold text-3xl">CRICX</span></h1>
+      </div>
+      
+    </footer>
+  </body>
+</html>
